@@ -1,0 +1,481 @@
+/* estilos generales */
+
+    body{
+        color:black;
+        background-color: rgb(244, 244, 244);
+    } 
+ 
+/* logo */
+
+    header img{
+        width: 20%;
+    }
+
+/* color de fondo para el header */
+
+    header{
+        background-color:#E4E4E4;
+        text-align: center;
+        margin: 0px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+/* elimina viñetas */
+
+    header nav ul{
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        margin-right: 50px;
+    }
+
+
+/* estilo al menu */
+
+    header nav ul li a{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Times, serif;
+        text-decoration: none;
+        color: darkred;
+        font-size: 20px;
+    }
+
+
+        
+/* titulo principal */
+
+    h1{
+        color: darkblue;
+        font-family:Arial, Helvetica, sans-serif, Times, serif;
+        text-align: center;
+        font-weight: 500;
+        font-style: italic;
+        text-transform: uppercase;
+    }
+
+/* Subtitulo */
+
+     h2{
+        font-family:'Times New Roman', Times, serif;
+        text-align: center;
+    }
+
+    .img1{
+        width: 100%;
+    }
+
+/* Productos */
+
+    .product{
+        background-color: #E4E4E4;
+        color: darkblue;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        font-weight: 500;
+        font-style: italic;
+    }
+
+    /* categorias */
+
+        .vidrio{
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            text-decoration: underline;
+         }
+        .colirios{
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+ 
+/* nosotros */
+
+    .nostr{
+        background-color: #E4E4E4;
+        color: darkblue;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        font-weight: 500;
+        font-style: italic;  
+    }
+    div{
+        display: flex;
+        align-items: center;
+    } 
+    .disp{
+        display: flex;
+        justify-content:center;
+        gap: 3rem;
+        margin: 1rem 10rem;
+        font-size: large;
+        line-height: 30px;
+    }
+    
+    main .img2{
+        width: 500px;
+    }
+    
+    
+/* clientes */
+
+    .client{
+        background-color: #E4E4E4;
+        color: darkblue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        font-weight: 500;
+        font-style: italic;
+    }
+
+/* contacto */
+
+    .contact{
+        background-color: #E4E4E4;
+        color: darkblue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        font-weight: 500;
+        font-style: italic;
+    }
+
+    main .contact1{
+        display: flex;
+        justify-content:center;
+        gap: 2rem;
+        margin: 1rem 3rem;
+        font-size: large;
+        align-items: center;
+    }
+
+    .contact2{
+        margin: 100px;
+        font-size: xx-large;
+        justify-content: center;
+    }
+
+
+/* formulario de contacto */
+
+    .form{
+        background-color:darkgrey;
+        width: 400px;
+        margin: auto;
+        max-width: 400px;
+        border-radius: 20px;
+        padding: 3.5em 1.5em;
+    }
+
+    .form_container{
+        width: 100%;
+        display: grid;
+        gap: 1em;
+        grid-auto-columns: 100%;
+    }
+
+    .form_title{
+        color: darkred;
+        text-align: center;
+        font-size: 1.9rem;
+        margin-bottom: 16px;
+    }
+
+    .form_imput{
+        font-family: inherit;
+        font-size: 1rem;
+        padding: 16px;
+    }
+
+    .form_imput--message{
+        resize: none;
+        padding: 1.8em 1em;
+        margin-bottom: .5em;
+    }
+
+    .form_cta{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        background-color:rgb(48, 48, 142);
+        color: white;
+        border:none;
+        font-weight: 300;
+        padding: .7em 0;
+        border-radius: .2em;
+        cursor: pointer;
+        font-weight: 400;
+    }
+
+    @media (max-width:450px){
+       .form{
+            padding: 3.5em 1em;
+        } 
+    }
+
+    .grid-container3 {
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: repeat(1,100px);
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+    
+    .grid-container3 {
+        border: 1px solid:#553737;
+        font-size: 21px;
+        padding: 20px;
+    }
+
+    .contact1{
+        grid-column: 1 / 2;
+        grid-row: 1 / 1;
+    }
+
+    .form1{
+        grid-column: 2 / 3;
+        grid-row: 1 / 1;
+    }
+
+
+/* pie de pagina */
+
+    h6{
+        text-align: center;
+    }
+
+
+/* dispositivo mobile */
+
+@media only screen and (max-width: 500px) {
+    body{
+        background-color:#cdafaf;
+    }
+}
+
+/* dispositivo tablet */
+  
+@media only screen and (min-width: 500px) and (max-width: 960px) {
+    body{
+        background-color: rgb(128, 125, 125);
+    }
+}
+
+/* dispositivo desktop */
+
+@media only screen and (min-width:960px) {
+    body{
+        background-color: rgb(244, 244, 244);
+    }
+}
+
+/* imagenes de productos */
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: repeat(9,100px);
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.grid-container1 {
+    border: 1px solid:#553737;
+    font-size: 21px;
+    padding: 20px;
+}
+    
+/* ajuste de ancho y alto de las imagenes */
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.vidrio{
+    grid-column: 1 / 6;
+    grid-row: 1 / 1;
+}
+
+.uno{
+    grid-column: 1 / 1;
+    grid-row: 2 / 4;
+}
+
+.dos{
+    grid-column: 2 / 2;
+    grid-row: 2 / 4;
+}
+
+.tres{
+    grid-column: 3 / 3;
+    grid-row: 2 / 4;
+}
+
+.cuatro{
+    grid-column: 4 / 6;
+    grid-row: 2 / 4;
+}
+
+.cinco{
+    grid-column: 1 / 1;
+    grid-row: 4 / 6;
+}
+
+.seis{
+    grid-column: 2 / 2;
+    grid-row: 4 / 6;
+}
+
+.siete{
+    grid-column: 3 / 3;
+    grid-row: 4 / 6;
+}
+
+.ocho{
+    grid-column: 4 / 6;
+    grid-row: 4 / 6;
+}
+
+.colirios{
+    grid-column: 1 / 6;
+    grid-row: 6 / 6 ;
+}
+
+.nueve{
+    grid-column: 1 / 1;
+    grid-row: 7 / 9;
+}
+
+.diez{
+    grid-column: 2 / 2;
+    grid-row: 7 / 9;
+}
+
+.once{
+    grid-column: 3 / 3;
+    grid-row: 7 / 9;
+}
+
+.doce{
+    grid-column: 4 / 6;
+    grid-row: 7 / 9;
+}
+
+/* logos de clientes */
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: repeat(9,100px);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.grid-container2 {
+    border: 1px solid:#553737;
+    font-size: 21px;
+    padding: 20px;
+}
+
+/* ajuste de ancho y alto de las imagenes */
+
+.trece{
+    grid-column: 1 / 1;
+    grid-row: 1 / 3;
+}
+
+.catorce{
+    grid-column: 2 / 2;
+    grid-row: 1 / 3;
+}
+
+.quince{
+    grid-column: 3 / 3;
+    grid-row: 1 / 3;
+}
+
+.dieciseis{
+    grid-column: 4 / 4;
+    grid-row: 1 / 3;
+}
+
+.diecisiete{
+    grid-column: 5 / 5;
+    grid-row: 1 / 3;
+}
+
+.diecisiete{
+    grid-column: 1 / 1;
+    grid-row: 3 / 5;
+}
+
+.dieciocho{
+    grid-column: 2 / 2;
+    grid-row: 3 / 5;
+}
+
+.diecinueve{
+    grid-column: 3 / 3;
+    grid-row: 3 / 5;
+}
+
+.veinte{
+    grid-column: 4 / 4;
+    grid-row: 3 / 5;
+}
+
+.veintiuno{
+    grid-column: 5 / 5;
+    grid-row: 3 / 5;
+}
+
+.veintidos{
+    grid-column: 1 / 1;
+    grid-row: 5 / 7;
+}
+
+.veintitres{
+    grid-column: 2 / 2;
+    grid-row: 5 / 7;
+}
+
+.veinticuatro{
+    grid-column: 3 / 3;
+    grid-row: 5 / 7;
+}
+
+.veinticinco{
+    grid-column: 4 / 4;
+    grid-row: 5 / 7;
+}
+
+.veintiseis{
+    grid-column: 5/ 5;
+    grid-row: 5 / 7;
+}
+
+.veintisiete{
+    grid-column: 1 / 1;
+    grid-row: 7 / 9;
+}
+
+.veintiocho{
+    grid-column: 2 / 2;
+    grid-row: 7 / 9;
+}
+
+.veintinueve{
+    grid-column: 3 / 3;
+    grid-row: 7 / 9;
+}
+
+.treinta{
+    grid-column: 4 / 4;
+    grid-row: 7 / 9;
+}
+
+.treintayuno{
+    grid-column: 5 / 5;
+    grid-row: 7 / 9;
+}
+
